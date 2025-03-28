@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+ul {
+  display: flex;
+  background-color: #7d0a0a;
+  height: 55px;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-style: Poppins;
+  color: white;
+  width: 250px;
+}
+
+nav li:hover {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0ms;
+  transition-duration: 100ms;
+}
+
+.container {
+  margin: auto;
+  padding-block: 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 68px;
+}
+
+.hero-image {
+  width: 580px;
+  height: 680px;
+  margin-top: 70px;
+}
+
+.head-text {
+  width: 900px;
+  height: 150px;
+  font-size: 120px;
+  font-weight: bold;
+  color: #7d0a0a;
+  font-size: Poppins;
+  text-shadow: yellow 1px 10px 1px;
+}
+
+.sub-text {
+  width: 1050px;
+  height: 110px;
+  font-size: 31px;
+  font-style: Poppins;
+  color: #bf3131;
+  text-shadow: beige 1px 1px 1px;
+}
+
+.hero-button {
+  width: 160px;
+  height: 50px;
+  background-color: #ead196;
+  padding: 12px;
+  align-items: center;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: 25px;
+  border-radius: 30px;
+  border-color: #7d0a0a;
+  border-width: 100px;
+  box-shadow: gray 1px 5px 1px;
+  color: #7d0a0a;
+}
+
+.text{
+    font-size: 80px;
+    margin-top: 250px;
+    color: #7d0a0a;
+    margin-left: 30px;
+}
+
+.photos img{
+   width: 450px;
+   height: 550px;
+   margin-left: 80px;
+   margin-top: 50px;
+   border-style: solid;
+   border-color: #7d0a0a;
+   border-radius: 50px;
+}
+
+
+.photo-date{
+    margin-left: 130px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.photo-date h3{
+    font-size: 50px;
+}
+
+.span-date{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.photos{
+    display: flex;
+    gap: 150px;
+}
+
+@media only screen and (max-width: 834px) {
+  .container {
+    width: 600px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero-image {
+    width: 350px;
+    height: 450px;
+    margin-bottom: 5px;
+  }
+
+  .head-text {
+    font-size: 80px;
+    width: 650px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .sub-text {
+    font-size: 20px;
+    height: 70px;
+    width: 650px;
+  }
+  .hero-button {
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .photos{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.photos img{
+  width: 350px;
+  height: 450px;
+  margin-left: 250px;
+}
+
+.photo-date{
+   margin-top: 10px;
+   margin-left: 310px;
+}
+
+}
+
+
